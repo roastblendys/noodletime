@@ -23,7 +23,7 @@
                                     <constraint firstAttribute="height" constant="21" id="LU7-xC-LcK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Flh-Gh-CLT">
@@ -49,6 +49,9 @@
                                 <state key="normal" title="Reset">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="reset_button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="phu-zE-pd5"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -74,9 +77,7 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="start_button" destination="Flh-Gh-CLT" id="7GL-Pj-N0e"/>
-                        <outlet property="stop_button" destination="z1M-AE-YXW" id="f4t-a0-bbD"/>
-                        <outlet property="time01" destination="EOe-Pn-mK3" id="vzc-xI-7yc"/>
+                        <outlet property="time01" destination="EOe-Pn-mK3" id="9CC-N0-kbS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
