@@ -14,10 +14,11 @@ class ViewController: UIViewController {
 // タイマーの設定
     private var timer: NSTimer?
     private var count: Int = 0
-    
     private var min: Int = 2
     private var sec: Int = 0
 
+    @IBOutlet weak var stop_button:UIButton?
+    @IBOutlet weak var start_button:UIButton?
     
     
     override func viewDidLoad() {
@@ -34,7 +35,6 @@ class ViewController: UIViewController {
 
     @IBAction func start_button(sender: AnyObject) {
     }
-
     
     @IBAction func stop_button(sender: AnyObject) {
     }
