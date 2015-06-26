@@ -13,10 +13,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        println("あいうえお")
-        println("かわせ参上")
+        NSThread.sleepForTimeInterval(1.0)
         // Override point for customization after application launch.
         return true
     }
