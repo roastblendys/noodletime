@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 private let TIMER_INTERVAL: Double = 0.1
@@ -70,13 +71,30 @@ private let TIMER_INTERVAL: Double = 0.1
         timer = nil
     }
     
-    
     func onTick() {
         count++
         if (count >= 10) {
             countDown()
             count = 0
         }
+        
+        if count % 30 == 0{
+            println("おとならす")
+            // 再生する audio ファイルのパスを取得
+            let audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("meka_ge_tokei_den_aramu01", ofType: "mp3")!)
+            
+            // auido を再生するプレイヤーを作成する
+            var audioError:NSError?
+            var audioPlayer = AVAudioPlayer(contentsOfURL: audioPath, error:&audioError)
+            
+            // エラーが起きたとき
+            if let error = audioError {
+                println("Error \(error.localizedDescription)")
+            }
+            audioPlayer!.prepareToPlay()
+        }
+        
+        
     }
     
     func countDown() {

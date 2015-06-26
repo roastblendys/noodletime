@@ -42,6 +42,7 @@
 		4A557A2F1B3D1E4700D5C447 /* original_180x180.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A201B3D1E4700D5C447 /* original_180x180.png */; };
 		4A557A321B3D225800D5C447 /* noodle_top960.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A301B3D225800D5C447 /* noodle_top960.png */; };
 		4A557A331B3D225800D5C447 /* noodle_top1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A311B3D225800D5C447 /* noodle_top1136.png */; };
+		4A557A351B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A341B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 */; };
 		4A81EB6A1B3BA2D700045E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A81EB691B3BA2D700045E98 /* AppDelegate.swift */; };
 		4A81EB6C1B3BA2D700045E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A81EB6B1B3BA2D700045E98 /* ViewController.swift */; };
 		4A81EB6F1B3BA2D700045E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A81EB6D1B3BA2D700045E98 /* Main.storyboard */; };
@@ -96,6 +97,7 @@
 		4A557A201B3D1E4700D5C447 /* original_180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = original_180x180.png; sourceTree = "<group>"; };
 		4A557A301B3D225800D5C447 /* noodle_top960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noodle_top960.png; sourceTree = "<group>"; };
 		4A557A311B3D225800D5C447 /* noodle_top1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noodle_top1136.png; sourceTree = "<group>"; };
+		4A557A341B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meka_ge_tokei_den_aramu01.mp3; sourceTree = "<group>"; };
 		4A81EB641B3BA2D700045E98 /* noodletimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noodletimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A81EB681B3BA2D700045E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A81EB691B3BA2D700045E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -179,6 +181,7 @@
 				4A557A1B1B3D1E4700D5C447 /* original_100x100.png */,
 				4A557A1C1B3D1E4700D5C447 /* original_114x114.png */,
 				4A557A1D1B3D1E4700D5C447 /* original_120x120.png */,
+				4A557A341B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 */,
 				4A557A1E1B3D1E4700D5C447 /* original_144x144.png */,
 				4A557A1F1B3D1E4700D5C447 /* original_152x152.png */,
 				4A557A201B3D1E4700D5C447 /* original_180x180.png */,
@@ -322,6 +325,7 @@
 				4A557A0D1B3D0EBD00D5C447 /* four.png in Resources */,
 				4A557A2A1B3D1E4700D5C447 /* original_100x100.png in Resources */,
 				4A557A221B3D1E4700D5C447 /* original_40x40.png in Resources */,
+				4A557A351B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 in Resources */,
 				4A557A291B3D1E4700D5C447 /* original_87x87.png in Resources */,
 				4A81EB6F1B3BA2D700045E98 /* Main.storyboard in Resources */,
 				4A557A2E1B3D1E4700D5C447 /* original_152x152.png in Resources */,
