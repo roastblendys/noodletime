@@ -77,11 +77,11 @@ private let TIMER_INTERVAL: Double = 0.1
             countDown()
             count = 0
         }
-        
-        if count % 30 == 0{
+       
+        if count == 0{
             println("おとならす")
             // 再生する audio ファイルのパスを取得
-            let audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("meka_ge_tokei_den_aramu01", ofType: "mp3")!)
+            let audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("microwave-tin1", ofType: "mp3")!)
             
             // auido を再生するプレイヤーを作成する
             var audioError:NSError?

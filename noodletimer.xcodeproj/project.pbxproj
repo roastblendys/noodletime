@@ -43,6 +43,7 @@
 		4A557A321B3D225800D5C447 /* noodle_top960.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A301B3D225800D5C447 /* noodle_top960.png */; };
 		4A557A331B3D225800D5C447 /* noodle_top1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A311B3D225800D5C447 /* noodle_top1136.png */; };
 		4A557A351B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A341B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 */; };
+		4A557A371B3D2F0600D5C447 /* microwave-tin1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A557A361B3D2F0600D5C447 /* microwave-tin1.mp3 */; };
 		4A81EB6A1B3BA2D700045E98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A81EB691B3BA2D700045E98 /* AppDelegate.swift */; };
 		4A81EB6C1B3BA2D700045E98 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A81EB6B1B3BA2D700045E98 /* ViewController.swift */; };
 		4A81EB6F1B3BA2D700045E98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A81EB6D1B3BA2D700045E98 /* Main.storyboard */; };
@@ -98,6 +99,7 @@
 		4A557A301B3D225800D5C447 /* noodle_top960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noodle_top960.png; sourceTree = "<group>"; };
 		4A557A311B3D225800D5C447 /* noodle_top1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noodle_top1136.png; sourceTree = "<group>"; };
 		4A557A341B3D28D300D5C447 /* meka_ge_tokei_den_aramu01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meka_ge_tokei_den_aramu01.mp3; sourceTree = "<group>"; };
+		4A557A361B3D2F0600D5C447 /* microwave-tin1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "microwave-tin1.mp3"; sourceTree = "<group>"; };
 		4A81EB641B3BA2D700045E98 /* noodletimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = noodletimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A81EB681B3BA2D700045E98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4A81EB691B3BA2D700045E98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -175,6 +177,7 @@
 				4A557A151B3D1E4700D5C447 /* original_57x57.png */,
 				4A557A161B3D1E4700D5C447 /* original_58x58.png */,
 				4A557A171B3D1E4700D5C447 /* original_72x72.png */,
+				4A557A361B3D2F0600D5C447 /* microwave-tin1.mp3 */,
 				4A557A181B3D1E4700D5C447 /* original_76x76.png */,
 				4A557A191B3D1E4700D5C447 /* original_80x80.png */,
 				4A557A1A1B3D1E4700D5C447 /* original_87x87.png */,
@@ -342,6 +345,7 @@
 				4A5579F91B3CFAD400D5C447 /* start.png in Resources */,
 				4A557A321B3D225800D5C447 /* noodle_top960.png in Resources */,
 				4A557A2D1B3D1E4700D5C447 /* original_144x144.png in Resources */,
+				4A557A371B3D2F0600D5C447 /* microwave-tin1.mp3 in Resources */,
 				4A557A261B3D1E4700D5C447 /* original_72x72.png in Resources */,
 				4A557A2C1B3D1E4700D5C447 /* original_120x120.png in Resources */,
 				4A557A0F1B3D0F6100D5C447 /* five.png in Resources */,
