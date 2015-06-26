@@ -24,7 +24,7 @@ private let TIMER_INTERVAL: Double = 0.1
     private var min: Int = 3
     private var sec: Int = 0
 
-    
+    private var audioPlayer:AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,6 +32,18 @@ private let TIMER_INTERVAL: Double = 0.1
         initMin = 3
         self.view.backgroundColor = UIColorFromHex(0xfcf4df)
         
+        let soundFilePath : NSString = NSBundle.mainBundle().pathForResource("meka_ge_tokei_den_aramu01", ofType: "mp3")!
+        let fileURL : NSURL = NSURL(fileURLWithPath: soundFilePath as String)!
+        println(fileURL)
+        
+        // auido を再生するプレイヤーを作成する
+        var audioError:NSError?
+        audioPlayer = AVAudioPlayer(contentsOfURL: fileURL, error:&audioError)
+        // エラーが起きたとき
+        if let error = audioError {
+            println("Error \(error.localizedDescription)")
+        }
+        audioPlayer.prepareToPlay()
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -77,24 +89,6 @@ private let TIMER_INTERVAL: Double = 0.1
             countDown()
             count = 0
         }
-        
-        if count % 30 == 0{
-            println("おとならす")
-            // 再生する audio ファイルのパスを取得
-            let audioPath = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("meka_ge_tokei_den_aramu01", ofType: "mp3")!)
-            
-            // auido を再生するプレイヤーを作成する
-            var audioError:NSError?
-            var audioPlayer = AVAudioPlayer(contentsOfURL: audioPath, error:&audioError)
-            
-            // エラーが起きたとき
-            if let error = audioError {
-                println("Error \(error.localizedDescription)")
-            }
-            audioPlayer!.prepareToPlay()
-        }
-        
-        
     }
     
     func countDown() {
@@ -106,6 +100,9 @@ private let TIMER_INTERVAL: Double = 0.1
                 min = 0
                 time01.text = timeStringGenerate()
                 stopTimer()
+                
+                audioPlayer.play()
+                
                 return
             }
             sec = 59
